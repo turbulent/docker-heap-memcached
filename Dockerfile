@@ -1,6 +1,7 @@
-FROM heap-base:2.0
-
+FROM docker-registry.turbulent.ca:5000/heap-base:2.0.3
 MAINTAINER Benoit Beausejour <b@turbulent.ca>
+
+ENV heap-memcached 2.0.1
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
