@@ -1,6 +1,6 @@
-# heap-memcached docker image.
+# heap-memcached Docker image.
 
-Dockerized memcached daemon as the main entrypoint.
+Docker image for Memcached service in Heap-based hosting environments.
 
 ## Usage
 
@@ -23,3 +23,9 @@ The following environment variables are available (listed below with default val
 VAR_MEMCACHED_SIZE="10"
 VAR_MEMCACHED_MAX_CONNECTIONS="1024"
 ```
+
+## License
+
+All work found under this repository is licensed under the [Apache
+License 2.0](LICENSE).
+
